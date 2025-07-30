@@ -1,0 +1,508 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+}
+
+.sidebar {
+  width: 220px;
+  background: #2c3e50;
+  height: 100vh;
+  color: #fff;
+  padding-top: 20px;
+  position: fixed;
+}
+
+.sidebar a {
+  display: block;
+  color: #fff;
+  padding: 15px;
+  text-decoration: none;
+}
+.sidebar a:hover {
+  background: #34495e;
+}
+
+.main {
+  margin-left: 220px;
+  padding: 20px;
+  width: 100%;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f2f4f8;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 95%;
+  margin: 40px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+table th {
+  background-color: #007BFF;
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tr:hover {
+  background-color: #eef;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.btn:hover {
+  background-color: #218838;
+}
+
+a {
+  text-decoration: none;
+  color: #007BFF;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f6f9;
+  padding: 30px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+/* Container Styling */
+.main {
+  margin-left: 220px;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Heading */
+.main h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Add Button */
+.btn {
+  display: inline-block;
+  background-color: #2d89ef;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.btn:hover {
+  background-color: #1b5fb3;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  background-color: #f7f7f7;
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Action links */
+td a {
+  color: #007bff;
+  text-decoration: none;
+  margin-right: 8px;
+}
+
+td a:hover {
+  text-decoration: underline;
+}
+/* Form Container */
+.edit-form {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+.edit-form h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form Fields */
+.edit-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #555;
+}
+
+.edit-form input[type="text"],
+.edit-form input[type="number"],
+.edit-form input[type="date"],
+.edit-form select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+/* Submit Button */
+.edit-form button {
+  background-color: #2d89ef;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.edit-form button:hover {
+  background-color: #1b5fb3;
+}
+
+/* Back Link */
+.edit-form a {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+}
+
+.edit-form a:hover {
+  color: #2d89ef;
+}
+.styled-table {
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 15px;
+  width: 95%;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.styled-table thead tr {
+  background-color: #4CAF50;
+  color: #fff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+.styled-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.styled-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.styled-table a {
+  color: #2196F3;
+  text-decoration: none;
+}
+
+.styled-table a:hover {
+  text-decoration: underline;
+}
+.main {
+  padding: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+table, th, td {
+  border: 1px solid #ddd;
+}
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+.btn, .btn-edit, .btn-delete {
+  padding: 5px 10px;
+  margin-right: 5px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.btn {
+  background: #4CAF50;
+  color: white;
+}
+.btn-edit {
+  background: #2196F3;
+  color: white;
+}
+.btn-delete {
+  background: #f44336;
+  color: white;
+}
+.success {
+  background: #d4edda;
+  color: #155724;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-left: 5px solid #28a745;
+}
+.form-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+}
+.form-box input, .form-box button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.form-box button {
+  background: #28a745;
+  color: white;
+  border: none;
+}
+.btn {
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  padding: 7px 12px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.btn-edit {
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+.btn-delete {
+  background-color: #dc3545;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+.success {
+  background: #d4edda;
+  color: #155724;
+  padding: 8px;
+  margin: 10px 0;
+  border-left: 5px solid #28a745;
+}
+
+
+
+
+
+
+
+
+
+.success {
+  color: green;
+  background: #e0ffe0;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-left: 4px solid green;
+}
+
+.form textarea {
+  resize: vertical;
+}
+
+
+
+
+/* Core styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main content container */
+.main {
+  padding: 30px;
+}
+
+/* Headings */
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.btn, button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:hover, button:hover {
+  background-color: #0056b3;
+}
+
+/* Form */
+.form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.form input[type="text"],
+.form input[type="number"],
+.form input[type="date"],
+.form select,
+.form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Tables */
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.styled-table th, .styled-table td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.styled-table th {
+  background-color: #343a40;
+  color: white;
+}
+
+.styled-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Back link */
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
